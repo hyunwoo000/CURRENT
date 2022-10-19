@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <title>CURRENT</title>
+</head>
+<body>
+    <div class="wrap">
+
+        <!-- 배너 -->
+        <section class="banner">
+            <header>
+                <div class="header-area">
+                    <div class="header-logo">
+                        <svg id="current-logo" version="1.1" x="0px" y="0px" viewBox="0 0 290 50" style="enable-background:new 0 0 290 50;" xml:space="preserve"><g><path d="M23.2,41.8c-8.3,0-13.6-6.7-13.6-17.3c0-10.5,5.4-17.3,13.6-17.3c6.2,0,11,3.8,12.3,9.6h7C41.3,7.3,33.5,1,23.2,1
+                            C10.5,1,2.4,10.1,2.4,24.5C2.4,39,10.4,48,23.2,48c10.5,0,17.6-5.5,19.3-14.9h-7C34.1,38.5,29.6,41.8,23.2,41.8z"></path><path d="M78.5,31.7c0,6.5-4.1,11.1-11.4,11.1c-7.2,0-11.3-4.6-11.3-11.1V2.8h-7.1v29.5c0,9.8,7,16.7,18.4,16.7
+                            c11.4,0,18.4-6.9,18.4-16.7V2.8h-7V31.7z"></path><path d="M125.4,16.7c0-8.5-5.8-13.9-15.2-13.9H92.6v45.5h7.1V30.8h9.7l9.3,17.5h8.1l-10.2-18.6C122.2,27.8,125.4,22.8,125.4,16.7z
+                                M109.6,25.1h-9.9V8.7h9.7c5.5,0,8.8,3.1,8.8,8.2C118.2,22.1,115,25.1,109.6,25.1z"></path><path d="M165.8,16.7c0-8.5-5.8-13.9-15.2-13.9H133v45.5h7.1V30.8h9.7l9.3,17.5h8.1L157,29.7C162.5,27.8,165.8,22.8,165.8,16.7z
+                                M150,25.1h-9.9V8.7h9.7c5.5,0,8.8,3.1,8.8,8.2C158.5,22.1,155.4,25.1,150,25.1z"></path><polygon points="174.3,48.3 203.2,48.3 203.2,42.1 181.4,42.1 181.4,28 202,28 202,22.2 181.4,22.2 181.4,8.9 203.2,8.9 203.2,2.8 
+                            174.3,2.8 	"></polygon><polygon points="239.7,36.3 239.4,36.3 215.9,2.8 209.5,2.8 209.5,48.3 216.3,48.3 216.3,14.8 216.6,14.8 240.2,48.3 246.5,48.3 
+                            246.5,2.8 239.7,2.8 	"></polygon><polygon points="252.7,2.8 252.7,8.9 266.7,8.9 266.7,48.3 273.7,48.3 273.7,8.9 287.6,8.9 287.6,2.8 	"></polygon></g>
+                        </svg>
+                    </div>
+
+                    <a href="#none" class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+
+                </div>
+            </header>
+
+            <!-- 햄버거 메뉴버튼 클릭하면 열리는 서브메뉴박스 -->
+            <div class="menu-bar-box">
+                <ul class="menu-bar">
+                <li>
+                    <a href="#none" class="menu">OUTERWEARS</a>
+                </li>
+                <li>
+                    <a href="#none" class="menu">TOPS</a>
+                </li>
+                <li>
+                    <a href="#none" class="menu">BOTTOMS</a>
+                </li>
+                <li>
+                    <a href="#none" class="menu">SHOES</a>
+                </li>
+                <li>
+                    <a href="#none" class="menu">ACC</a>
+                </li>
+                <li>
+                    <a href="#none" class="menu">DRESSES</a>
+                </li>
+                <li>
+                    <a href="#none" class="menu">SESSEASON OFF</a>
+                </li>
+                <li>
+                    <a href="#none" class="menu">LOOKBOOK</a>
+                </li>
+                <li>
+                    <a href="#none" class="menu">INSTAGRAM</a>
+                </li> 
+                </ul>
+            </div>
+
+            <!-- 배너 슬라이드 -> 스와이퍼 진행 -->
+            <!-- 풀페이지 라이브러리 병합시 클래스명 slide 관련 용어 쓰지 말것(slide,slider) -->
+            <div class="slider-wrap swiper mySwiper">
+                <div class="auto-slider swiper-wrapper">
+                    <div class="slider">
+                        <video src="./video/CURRENT_video.mp4" autoplay muted loop playsinline></video>
+                        포폴 제작시 영상은 용량이 커서 서버에 올라가지 않을 수 있으니 영상은 꼭 15초 이하로 잘라서 사용할것 
+                    </div>
+                    <!-- <div class="slider slider-1 swiper-slide"></div>
+                    <div class="slider slider-2 swiper-slide"></div>
+                    <div class="slider slider-3 swiper-slide"></div>
+                    <div class="slider slider-4 swiper-slide"></div> -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>          
+            </div>
+        </section>
+
+        <!-- sec-1 -->
+        <section class="sec-1">
+            <div class="container">
+                <div class="section-head-box">
+                    <h1 class="section-head">
+                        SHOP ALL
+                    </h1>
+                    <div class="arrow-r"></div>
+                </div>
+
+                <div class="animate-slider-wrap">
+                    <div class="animate-slider box1">
+                        <a href="#none">
+                            <div class="content con-1"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-2"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-3"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-4"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-5"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-6"></div>
+                        </a>
+                    </div>
+
+                    <!-- 계속해서 돌아가는 애니메이션 효과르르 내기 위해 슬라이더 2개 생성 -->
+                    <div class="animate-slider box2">
+                        <a href="#none">
+                            <div class="content con-1"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-2"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-3"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-4"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-5"></div>
+                        </a>
+                        <a href="#none">
+                            <div class="content con-6"></div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- sec-2 -->
+        <section class="sec-2">
+            <div class="container">
+                <div class="section-head-box">
+                    <h1 class="section-head">
+                        ABOUT
+                    </h1>
+                </div>
+
+                <div class="about">
+                    <div class="left">
+                        <div class="store"></div>
+                        <p>offline Pavement Store</p>
+                    </div>
+                    <div class="right">
+                        <p>CURRENT is a brand that aims to make a reasonable design of the present life not confined to the genre or concept of the modern times.</p>
+                        <span>General Info</span>
+                        <p>official@currentstore.co.kr</p>
+                        <span>Business Address</span>
+                        <p>04796 144, Seongsui-ro, Seongdong-gu, Seoul, Republic of Korea</p>
+                        <span>Store Address</span>
+                        <p>Pavement Store (Konkuk University) 05072 19, Achasan-ro 26-gil, Gwangjin-gu, Seoul, Republic of Korea</p>
+                        <span>Contact Number</span>
+                        <p>1668-1273</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- sec-3 -->
+        <section class="sec-3">
+            <div class="container">
+                <div class="section-head-box">
+                    <h1 class="section-head">
+                        INSTAGRAM
+                    </h1>
+                </div>
+
+                <div class="insta-container">
+                    <div class="profile">
+                        <a href="#none">
+                            <img src="./img/insta-logo.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="profile-link">
+                        <a href="https://www.instagram.com/current.official/">current.official</a>
+                        <button class="profile-btn">
+                            팔로우
+                        </button>
+                    </div>
+
+                    <div class="highlight">
+                        <div class="con-box">
+                            <div class="con">
+                                <img src="./img/insta-story1.jpg" alt="">
+                            </div>
+                            <p class="txt">22 EDITORIAL</p>
+                        </div>
+                        <div class="con-box">
+                            <div class="con">
+                                <img src="./img/insta-story2.jpg" alt="">
+                            </div>
+                            <p class="txt">22 SUMMER</p>
+                        </div>
+                        <div class="con-box">
+                            <div class="con">
+                                <img src="./img/insta-story3.jpg" alt="">
+                            </div>
+                            <p class="txt">22 AUTUMN</p>
+                        </div>
+                        <div class="con-box">
+                            <div class="con">
+                                <img src="./img/insta-story4.jpg" alt="">
+                            </div>
+                            <p class="txt">22HS EDITORAIL</p>
+                        </div>
+                        <div class="con-box">
+                            <div class="con">
+                                <img src="./img/insta-story5.jpg" alt="">
+                            </div>
+                            <p class="txt">22HS</p>
+                        </div>
+                        <div class="con-box">
+                            <div class="con">
+                                <img src="./img/insta-story6.jpg" alt="">
+                            </div>
+                            <p class="txt">22SS</p>
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="con-box">
+                            <img src="./img/insta-feed1.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed2.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed3.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed4.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed5.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed6.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed7.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed8.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed9.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed10.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed11.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-box">
+                            <img src="./img/insta-feed12.jpg" alt="">
+                            <div class="con-back">
+                                <div class="like-box">
+                                    <div class="icon like"></div>
+                                    <p class="num">18.2k</p>
+                                    <div class="icon comment"></div>
+                                    <p class="num">285</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <ul class="f-box">
+                <li>
+                    <a href="#none">INFORMATION</a>
+                </li>
+                <li>
+                    <a href="#none">LEGAL</a>
+                </li>
+                <li>
+                    <a href="#none">GUIDE</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
